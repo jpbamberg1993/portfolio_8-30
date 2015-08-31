@@ -1,9 +1,5 @@
 require 'sinatra'
 
-get '/' do
-	"Hello World"
+get "/" do
+	redirect("index.html")	
 end
-
-get "/sinatra" do
-	"Hello Sinatra"
-end	
